@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leandro Augusto</title>
+
+    <!-- Estilo - CSS -->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+
+    <!-- Icone -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <i class="ph ph-dev-to-logo"></i>
+        </a>
+
+        <!-- Ícone do menu mobile -->
+        <div class="mobile-menu-toggle">
+            <i class="ph ph-list"></i>
+        </div>
+
+        <!-- Menu principal -->
+        <ul class="menu mobile-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projeto">Projetos</a></li>
+            <li><a href="#task">Task</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+
+    </header>
+
+    <section class="banner" id="home">
+        <div class="desc-banner">
+            <h2 class="h2-banner">Leandro Augusto Desenvolvedor e Cibersegurança</h2>
+            <p>Eu desenho e codifico coisas lindamente simples e adoro o que faço.</p>
+
+            <div class="avatar">
+                <img src="assets/img/leandro.svg" alt="">
+            </div>
+
+            <br><br>
+
+            <a href="#" class="contato-what">
+                Entrar em contato
+                <i class="ph ph-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- ... Sobre ... -->
+    <section id="sobre" class="sobre">
+        <div class="desc-sobre">
+            <h2>Olá! Meu nome é Leandro. Prazer em conhecê-lo.</h2>
+            <p>Sou um desenvolvedor apaixonado por criar soluções inovadoras no mundo da web, sistemas e cibersegurança.
+                Com uma sólida formação em Desenvolvedor de Software e anos de experiência prática, estou sempre
+                buscando maneiras de aplicar meu conhecimento para enfrentar os desafios do mundo digital.</p>
+        </div>
+
+        <div class="tasks">
+            <div class="blocos-taskes">
+                <i class="ph ph-code"></i>
+                <h3>Desenvolvedor</h3>
+                <p>Gosto de codificar coisas do zero e gosto de dar vida às ideias no navegador.</p>
+
+                <h5>Idiomas que falo:</h5>
+                <h4>FrontEnd:</h4>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>React</li>
+                    <li>BootStrap</li>
+                    <li>GIT</li>
+                </ul>
+
+                <h4>Backend:</h4>
+                <ul>
+                    <li>PHP</li>
+                    <li>Python3</li>
+                    <li>Java</li>
+                    <li>Node.Js</li>
+                </ul>
+
+            </div>
+
+            <div class="blocos-taskes">
+                <i class="ph ph-detective"></i>
+                <h3>Cibersegurança</h3>
+                <p>dedicado a proteger sistemas e dados contra ameaças digitais.</p>
+
+                <h5>Conhecimentos:</h5>
+                <h4>Analista de Segurança da Informação:</h4>
+                <ul>
+                    <li>SOC</li>
+                    <li>WAF</li>
+                    <li>Pentest</li>
+                    <li>DevSecOps</li>
+                    <li>Continuous Security Testing</li>
+                    <li>Vulnerability Assessment</li>
+                </ul>
+
+                <h4>Segurança Cibernética:</h4>
+                <ul>
+                    <li>Segurança de terminais</li>
+                    <li>Segurança de rede</li>
+                    <li>Segurança da informação</li>
+                </ul>
+
+                <h4><a href="https://cybersafecorp.online">Dono da CyberSafeCorp</a></h4>
+
+            </div>
+
+            <div class="blocos-taskes">
+                <i class="ph ph-paint-brush"></i>
+                <h3>Designer</h3>
+                <p>Eu valorizo ​​uma estrutura de conteúdo simples, padrões de design limpos e interações bem pensadas.
+                </p>
+
+                <h5>Ferramentas de projeto:</h5>
+                <p>Designer de afinidade</p>
+                <p>Figma</p>
+                <p>Pen & Paper</p>
+                <p>Sketch</p>
+                <p>Webflow</p>
+            </div>
+
+        </div>
+
+        <div class="anime">
+            <div class="stars"></div>
+            <div class="stars"></div>
+            <div class="stars"></div>
+            <div class="stars"></div>
+            <div class="stars"></div>
+        </div>
+    </section>
+
+    <!-- ... Projetos ... -->
+    <section id="projeto" class="projetos">
+        <h2>Meus projetos recentes</h2>
+        <br><br>
+
+        <!-- ... Design ... -->
+        <div class="container-projetos">
+
+            <div class="blocos-projetos" onmouseover="showText(this)" onmouseout="hideText(this)">
+                <img src="assets/img/design-1.png" alt="Projeto 1" class="imagem-projeto">
+                <div class="conteudo-projeto hidden-text">
+                    <p class="descricao-projeto">Social Media | Gestor de Tráfego & Social Media</p>
+                    <br><br>
+                    <a href="https://www.behance.net/gallery/190219475/Social-Media-Gestor-de-Trafego-Social-Media"
+                        class="button">Ver Mais!</a>
+                </div>
+            </div>
+
+            <div class="blocos-projetos" onmouseover="showText(this)" onmouseout="hideText(this)">
+                <img src="assets/img/desing-2.png" alt="Projeto 2" class="imagem-projeto">
+                <div class="conteudo-projeto hidden-text">
+                    <p class="descricao-projeto">Carrossel Agência de Marketing | Social Media</p>
+                    <br><br>
+                    <a href="https://www.behance.net/gallery/188984251/Carrossel-Agencia-de-Marketing-Social-Media"
+                        class="button">Ver Mais!</a>
+                </div>
+            </div>
+
+            <div class="blocos-projetos" onmouseover="showText(this)" onmouseout="hideText(this)">
+                <img src="assets/img/desing-3.png" alt="Projeto 3" class="imagem-projeto">
+                <div class="conteudo-projeto hidden-text">
+                    <p class="descricao-projeto">Aniversário de Manaus</p>
+                    <br><br>
+                    <a href="https://www.behance.net/gallery/183014961/Aniversario-de-Manaus" class="button">Ver
+                        Mais!</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ... Programação ... -->
+        <div class="container-projetos">
+
+            <div class="blocos-projetos" onmouseover="showText(this)" onmouseout="hideText(this)">
+                <img src="assets/img/cyber.png" alt="Projeto 1" class="imagem-projeto">
+                <div class="conteudo-projeto hidden-text">
+                    <p class="descricao-projeto">Minha empresa de Cibersegurança e Desenvolvimento</p>
+                    <br>
+                    <a href="https://cybersafecorp.online" class="button">Ver Mais!</a>
+                </div>
+            </div>
+
+            <div class="blocos-projetos" onmouseover="showText(this)" onmouseout="hideText(this)">
+                <img src="assets/img/ambev.png" alt="Projeto 2" class="imagem-projeto">
+                <div class="conteudo-projeto hidden-text">
+                    <p class="descricao-projeto">Ambev, site desenvolvido para uma empresa local!</p>
+                    <br>
+                    <a href="https://miiggames.github.io/Ambev/" class="button">Ver Mais!</a>
+                </div>
+            </div>
+
+            <div class="blocos-projetos" onmouseover="showText(this)" onmouseout="hideText(this)">
+                <img src="assets/img/desig-4.png" alt="Projeto 2" class="imagem-projeto">
+                <div class="conteudo-projeto hidden-text">
+                    <p class="descricao-projeto">Loja online desenvolvida para uma empresa local!</p>
+                    <br>
+                    <a href="https://nutripetbr.online" class="button">Ver Mais!</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- ... Colaboração ... -->
+    <section id="task" class="empreas">
+        <h2>Tenho orgulho de ter colaborado com algumas empresas incríveis:</h2>
+        <div class="bloco-empreas">
+            <img src="assets/img/LOGO-CYBER (1).png" alt="CyberSafeCorp">
+            <img src="assets/img/NutriPet-logo-extenso (4).png" alt="NutriPet">
+            <img src="assets/img/briteweb.svg" alt="NutriPet">
+            <img src="assets/img/designlab.png" alt="NutriPet">
+        </div>
+    </section>
+
+    <!-- ... Chamada ... -->
+    <section class="chamada">
+        <div class="ativo">
+            <h2>Tem uma ideia?</h2>
+            <p>Estou sempre aberto para discutir trabalhos de design de produtos ou oportunidades de parceria.</p>
+            <br>
+            <a href="#" class="button-ativo">
+                Entre em contato
+                <i class="ph ph-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- ... Contato ... -->
+    <section id="contato" class="contato">
+        <div class="info-contato">
+            <h2>Obrigado por reservar um tempo para entrar em contato. Como posso ajudá-lo hoje?</h2>
+        </div>
+        <div class="form">
+            <form action="https://formsubmit.co/leandroaugustomiranda701@gmail.com" method="POST">
+                <div class="grupo-form">
+                    <div class="form-grupo-div">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Nome" required autocomplete="name">
+                    </div>
+
+                    <div class="form-grupo-div">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="Endereço de e-mail" required
+                            autocomplete="email">
+                    </div>
+                </div>
+
+                <div class="grupo-form">
+                    <div class="form-grupo-div">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone" placeholder="Seu número para contato" required>
+                    </div>
+
+                    <div class="form-grupo-div">
+                        <label for="ideia">Ideia</label>
+                        <input type="text" id="ideia" name="ideia" placeholder="Descreva sua ideia">
+                    </div>
+                </div>
+                <br>
+
+                <div class="form-grupo">
+                    <textarea class="mensagem" id="message" name="message" rows="4"
+                        placeholder="Descreva melhor sua ideia"></textarea>
+                </div>
+
+                <button type="submit">Enviar</button>
+
+                <input type="hidden" name="_next" value="https://leandrocode.online/pages/orbigado.html">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_autoresponse" value="Obrigado por entrar em contato! Aguarde o processo.">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+        <br><br><br>
+        <div class="info">
+            <a href="#" class="logo">
+                <i class="ph ph-dev-to-logo"></i>
+            </a>
+            <p>Vivendo, aprendendo e subindo de nível um dia de cada vez.</p>
+        </div>
+        <br>
+        <div class="redes-sociais">
+            <a href="https://wa.link/vtnxjk" class="redes-sociais">
+                <i class="ph ph-whatsapp-logo"></i>
+            </a>
+
+            <a href="https://www.instagram.com/leandro_cybersafecorp?igsh=MTRicmd2b3BtaXAzaA==" class="redes-sociais">
+                <i class="ph ph-instagram-logo"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/leandro-augusto-219550300/">
+                <i class="ph ph-linkedin-logo"></i>
+            </a>
+
+            <a href="https://github.com/Le1ndro-Augusto" class="redes-sociais">
+                <i class="ph ph-github-logo"></i>
+            </a>
+
+            <a href="https://discord.com/invite/xKTDzDED" class="redes-sociais">
+                <i class="ph ph-discord-logo"></i>
+            </a>
+        </div>
+
+        <p>Feito à mão por mim @Leandro.</p>
+        <br><br>
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+            const mobileMenu = document.querySelector('.mobile-menu');
+
+            mobileMenuToggle.addEventListener('click', function () {
+                mobileMenu.classList.toggle('active');
+            });
+        });
+
+    </script>
+
+    <script>
+        function showText(element) {
+            var text = element.querySelector(".conteudo-projeto");
+            text.style.display = "block";
+        }
+
+        function hideText(element) {
+            var text = element.querySelector(".conteudo-projeto");
+            text.style.display = "none";
+        }
+
+    </script>
+
+    <script>
+        function typeWriter(elemento) {
+            const textoArray = elemento.innerHTML.split('');
+            elemento.innerHTML = '';
+            textoArray.forEach((letra, i) => {
+                setTimeout(() => elemento.innerHTML += letra, 75 * i);
+            });
+        }
+
+        const titulo = document.querySelector('h2');
+        typeWriter(titulo);
+
+    </script>
+
+
+</body>
+
+</html>
